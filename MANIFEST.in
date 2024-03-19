@@ -1,0 +1,2 @@
+recursive-include django_celery_stack *.py
+recursive-include django_celery_stack/locale *.po
