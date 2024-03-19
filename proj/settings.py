@@ -323,8 +323,6 @@ REST_FRAMEWORK = {
     "PAGE_SIZE": 10
 }
 
-JWT_EXPIRED_DELTA = datetime.timedelta(hours=1)
-
 DEFAULT_FILE_STORAGE = "minio_storage.storage.MinioMediaStorage"
 STATICFILES_STORAGE = "minio_storage.storage.MinioStaticStorage"
 # 因为MINIO中不光存储静态资源还会存储动态资源,相对比较铭感,必须强制加密通信
