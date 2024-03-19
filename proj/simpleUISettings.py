@@ -17,6 +17,6 @@ SIMPLEUI_ICON = {
 }
 
 
-# SIMPLEUI_LOGO = _STATIC_URL + 'img/LOGO.png'
+SIMPLEUI_LOGO = "https://user-images.githubusercontent.com/26336/59113881-917c5180-890b-11e9-9863-f5a98d0e235e.png"
 SIMPLEUI_HOME_INFO = False  # 首页上的simpleUI的版本信息板块。
 SIMPLEUI_ANALYSIS = False  # 收集信息（TODO：不太好，等正式上线后建议关闭；否则出现信息泄露）

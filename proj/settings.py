@@ -16,6 +16,7 @@ import os
 from pathlib import Path
 
 from dotenv import load_dotenv
+from .simpleUISettings import *
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = Path(__file__).resolve().parent.parent
