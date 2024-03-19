@@ -1,19 +1,27 @@
-djangorestframework>=3.14.0
+# Proj
 Pygments>=2.11.2
 psycopg2-binary>=2.9.9
-requests>=2.28.1
-docutils>=0.19
-concurrent-log-handler>=0.9.20
-django-log-request-id>=2.0.0
-django-sortedm2m>=3.1.1
+python-dotenv>=1.0.1
+
+# CeleryStack
 django-crontab>=0.7.1
 DjangoAsyncAdmin>=6.11.2
-django-cors-headers>=4.3.1
-django-minio-storage>=0.5.7
 django-celery-beat>=2.6.0
 django-celery-results>=2.5.1
 redis>=5.0.1
-python-dotenv>=1.0.1
 flower>=2.0.1
 sqlalchemy>=2.0.28
 graphviz>=0.20.1
+
+
+# Dispensable
+requests>=2.28.1
+docutils>=0.19
+django-cors-headers>=4.3.1
+djangorestframework>=3.14.0
+django-minio-storage>=0.5.7
+
+# ?
+concurrent-log-handler>=0.9.20
+django-log-request-id>=2.0.0
+django-sortedm2m>=3.1.1
