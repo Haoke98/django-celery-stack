@@ -12,7 +12,7 @@ dependencies = [
     "django-celery-results>=2.5.1",
     "redis>=5.0.1",
     "flower>=2.0.1",
-    "sqlalchemy>=2.0.28",
+    "sqlalchemy>=2.0.25",
     "graphviz>=0.20.1"
 ]
 requires-python = ">=3.6"
