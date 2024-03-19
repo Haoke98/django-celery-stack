@@ -23,10 +23,10 @@ from django.urls import path, re_path
 from django.utils.translation import gettext_lazy as _
 from django.views.generic import RedirectView
 from django.views.static import serve
-from revproxy.views import ProxyView
-from .view import media
+
 from . import settings
 from .settings import STATIC_URL
+from .view import media
 
 ADMIN_PATH = os.getenv("ADMIN_PATH")
 
@@ -42,9 +42,8 @@ urlpatterns = [
     path('admin/doc/', include('django.contrib.admindocs.urls')),
     path('sitemap.xml', sitemap, {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap'),
     path("favicon.ico", RedirectView.as_view(url=STATIC_URL + 'favicon.ico')),
-    # path('celery/', include('django_celery_stack.urls')),
+    path('celery/', include('django_celery_stack.urls')),
     path('sp/', include('simplepro.urls')),
     re_path(r'^static/(?P<path>.*)$', serve, ({'document_root': settings.STATIC_ROOT})),
     re_path(r'^media/(?P<path>.*)$', media),
-    re_path(r'^(?P<path>.*)$', ProxyView.as_view(upstream="https://sdc.mldoo.com")),
 ]
