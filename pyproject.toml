@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django-celery-stack"
+version = "1.0.0"
+dependencies = [
+    "django-crontab>=0.7.1",
+    "DjangoAsyncAdmin>=6.11.2",
+    "django-celery-beat>=2.6.0",
+    "django-celery-results>=2.5.1",
+    "redis>=5.0.1",
+    "flower>=2.0.1",
+    "sqlalchemy>=2.0.28",
+    "graphviz>=0.20.1"
+]
+requires-python = ">=3.6"
+authors = [
+    { name = "Sadam·Sadik", email = "Haoke98@outlook.com" }
+]
+maintainers = [
+    { name = "Sadam·Sadik", email = "Haoke98@outlook.com" }
+]
+description = "A full stack solution for celery and Django compatibility. The merge of django-celery-beat, django-celery-result, django-celery-progress."
+readme = "README.rst"
+license = { file = "LICENSE" }
+keywords = ['celery', 'django', 'task-scheduler', 'django-celery-beat', 'django-celery', 'django-celery-result', 'task-distribution', 'django-celery-progress']
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: Apache Software License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.6',
+    "Framework :: Celery",
+    "Framework :: Django",
+    "Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator"
+]
+
+[project.urls]
+Homepage = "https://github.com/Haoke98/django-celery-stack"
+Documentation = "https://github.com/Haoke98/django-celery-stack/README.md"
+Repository = "https://github.com/Haoke98/django-celery-stack.git"
+"Bug Tracker" = "https://github.com/Haoke98/django-celery-stack/issues"
+Changelog = "https://github.com/Haoke98/django-celery-stack/releases"
