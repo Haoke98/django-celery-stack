@@ -1,0 +1,218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-08 11:47+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: celery_task_manager/admin/registeredTask.py:106
+#, python-brace-format
+msgid "task \"{not_found_task_name}\" not found"
+msgstr ""
+
+#: celery_task_manager/admin/registeredTask.py:122
+#, python-brace-format
+msgid "{0} task{1} {2} successfully run"
+msgstr ""
+
+#: celery_task_manager/admin/registeredTask.py:125
+msgid "was,were"
+msgstr ""
+
+#: celery_task_manager/admin/registeredTask.py:129
+msgid "Run selected tasks"
+msgstr ""
+
+#: celery_task_manager/admin/taskchain.py:70
+msgid "Task (registered)"
+msgstr ""
+
+#: celery_task_manager/admin/taskchain.py:72
+msgid ""
+"The Name of the Celery Task that Should be Run.  (Example: \"proj.tasks."
+"import_contacts\")"
+msgstr ""
+
+#: celery_task_manager/admin/taskchain.py:102
+msgid "At least two registered tasks need to be selected"
+msgstr "至少需要选择两个以上的已注册的任务"
+
+#: celery_task_manager/admin/taskchain.py:108
+msgid "Only one can be set, in expires and expire_seconds"
+msgstr ""
+
+#: celery_task_manager/admin/taskchain.py:119
+#, python-format
+msgid "Unable to parse JSON: %s"
+msgstr "无法解析JSON: %s"
+
+#: celery_task_manager/admin/taskchain.py:165
+msgid "Start up"
+msgstr "启动"
+
+#: celery_task_manager/apps.py:8
+msgid "Task Management"
+msgstr "任务管理"
+
+#: celery_task_manager/models.py:68 celery_task_manager/models.py:69
+msgid "Custom Task Result"
+msgstr "任务结果"
+
+#: celery_task_manager/models.py:80
+msgid "Task ID"
+msgstr "任务ID"
+
+#: celery_task_manager/models.py:81
+msgid "Celery ID for the Task that was run"
+msgstr "已运行任务 Celery ID"
+
+#: celery_task_manager/models.py:87
+msgid "Traceback"
+msgstr "Traceback"
+
+#: celery_task_manager/models.py:88
+msgid "Text of the traceback if the task generated one"
+msgstr "任务生成报错时的 traceback 文本"
+
+#: celery_task_manager/models.py:137 celery_task_manager/models.py:138
+msgid "Task State"
+msgstr "任务状态"
+
+#: celery_task_manager/models.py:144
+msgid "Name"
+msgstr ""
+
+#: celery_task_manager/models.py:145
+msgid "Short Description For This Task"
+msgstr "任务简介"
+
+#: celery_task_manager/models.py:150 celery_task_manager/models.py:151
+msgid "Tasks Chain"
+msgstr "任务链"
+
+#: celery_task_manager/models.py:161 celery_task_manager/models.py:162
+msgid "Registered Task"
+msgstr "已注册任务"
+
+#~ msgid "Parameters"
+#~ msgstr "参数"
+
+#~ msgid "Result"
+#~ msgstr "结果"
+
+#~ msgid "Celery Results"
+#~ msgstr "Celery 结果"
+
+#~ msgid "Task Name"
+#~ msgstr "任务名称"
+
+#~ msgid "Name of the Task which was run"
+#~ msgstr "已运行任务名称"
+
+#~ msgid "Task Positional Arguments"
+#~ msgstr "任务位置参数"
+
+#~ msgid "JSON representation of the positional arguments used with the task"
+#~ msgstr "该任务位置参数的 JSON 字符串"
+
+#~ msgid "Task Named Arguments"
+#~ msgstr "任务具名参数"
+
+#~ msgid "JSON representation of the named arguments used with the task"
+#~ msgstr "该任务具名参数的 JSON 字符串"
+
+#~ msgid "Current state of the task being run"
+#~ msgstr "运行中任务的当前状态"
+
+#~ msgid "Worker"
+#~ msgstr "Worker"
+
+#~ msgid "Worker that executes the task"
+#~ msgstr "执行该任务的 Worker"
+
+#~ msgid "Result Content Type"
+#~ msgstr "结果内容类型"
+
+#~ msgid "Content type of the result data"
+#~ msgstr "结果数据的内容类型"
+
+#~ msgid "Result Encoding"
+#~ msgstr "结果编码格式"
+
+#~ msgid "The encoding used to save the task result data"
+#~ msgstr "保存结果数据的编码格式"
+
+#~ msgid "Result Data"
+#~ msgstr "结果数据"
+
+#~ msgid ""
+#~ "The data returned by the task.  Use content_encoding and content_type "
+#~ "fields to read."
+#~ msgstr "该任务返回数据，根据 content_encoding 和 content_type 字段读取。"
+
+#~ msgid "Created DateTime"
+#~ msgstr "创建时间"
+
+#~ msgid "Datetime field when the task result was created in UTC"
+#~ msgstr "UTC格式的任务创建时间字段"
+
+#~ msgid "Completed DateTime"
+#~ msgstr "完成时间"
+
+#~ msgid "Datetime field when the task was completed in UTC"
+#~ msgstr "UTC格式的任务完成时间字段"
+
+#~ msgid "Task Meta Information"
+#~ msgstr "任务元信息"
+
+#~ msgid ""
+#~ "JSON meta information about the task, such as information on child tasks"
+#~ msgstr "关于该任务的 JSON 元信息，如子任务的信息"
+
+#~ msgid "task result"
+#~ msgstr "任务结果"
+
+#~ msgid "task results"
+#~ msgstr "任务结果"
+
+#~ msgid "Group ID"
+#~ msgstr "分组 ID"
+
+#~ msgid "Celery ID for the Chord header group"
+#~ msgstr "Chord header 分组的 Celery ID"
+
+#~ msgid ""
+#~ "JSON serialized list of task result tuples. use .group_result() to decode"
+#~ msgstr "任务结果元组的 JSON 序列化列表。使用 .group_result() 进行解码"
+
+#~ msgid ""
+#~ "Starts at len(chord header) and decrements after each task is finished"
+#~ msgstr "在 len(chord header) 处开始并且会在每个任务结束后递减"
+
+#~ msgid "Celery ID for the Group that was run"
+#~ msgstr "已运行分组的 Celery ID"
+
+#~ msgid "Datetime field when the group result was created in UTC"
+#~ msgstr "分组结果创建时的 UTC 格式 datetime 字段"
+
+#~ msgid "Datetime field when the group was completed in UTC"
+#~ msgstr "分组结果完成时的 UTC 格式 datetime 字段"
+
+#~ msgid "group result"
+#~ msgstr "分组结果"
+
+#~ msgid "group results"
+#~ msgstr "分组结果"
