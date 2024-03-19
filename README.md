@@ -1,4 +1,6 @@
-# django-celery-stack
+# Django Celery Stack
+
+English  |  [中文](README.zh.md)
 
 Django Celery Stack & Admin is a full-featured stack that integrates Django, Celery, and DjangoAsyncAdmin, designed to provide web developers with a powerful and user-friendly asynchronous task and scheduling solution. The integration of Django’s powerful web framework, Celery’s task queue and scheduling capabilities, and DjangoAsyncAdmin’s asynchronous management interface allows developers to easily implement complex data processing, scheduled tasks, and interactive management in their Django projects.
 
