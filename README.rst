@@ -1,9 +1,4 @@
-Django Celery Stack
-
-==================
-
 Django Celery Stack & Admin offers the following key features:
-
 
 
 * Asynchronous Task Queue :
