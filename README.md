@@ -2,17 +2,20 @@
 
 English |  [中文](README.zh.md)
 
-Django Celery Stack & Admin is a full-featured stack that integrates Django, Celery, and DjangoAsyncAdmin, designed to
-provide web developers with a powerful and user-friendly asynchronous task and scheduling solution. The integration of
-Django’s powerful web framework, Celery’s task queue and scheduling capabilities, and DjangoAsyncAdmin’s asynchronous
-management interface allows developers to easily implement complex data processing, scheduled tasks, and interactive
-management in their Django projects.
+A comprehensive stack solution that ensures seamless compatibility between Celery and Django, integrating key components
+such as django-celery-beat, django-celery-result, and django-celery-progress. This integration provides web developers
+with a robust framework for handling asynchronous tasks, scheduling, and tracking task execution within their Django
+projects.
+
+In addition, its interface and interaction are very friendly and modern, and it has overcome the traditional interaction
+shortcomings of Django by referencing [DjangoAsyncAdmin](https://github.com/Haoke98/DjangoAsyncAdmin).
+
 ![](assets/registeredTaskRunForm.png)
 
 ### Django Celery Stack & Admin offers the following key features:
 
 * **Asynchronous Task Queue** :
-  
+
       Utilize Celery’s distributed message passing system to delegate CPU-bound tasks to the background, improving the responsiveness and performance of the application.
 
 * Scheduled Task Scheduler:
@@ -36,12 +39,14 @@ management in their Django projects.
       The design of Django Celery Stack & Admin is flexible, allowing for easy integration with other Django applications and Celery components to meet various requirements.
 
 ![](assets/registeredTaskList.png)
-Whether you are a traditional web developer who needs to process a large amount of data or a system administrator who
-requires complex scheduling tasks, Django Celery Stack & Admin is the perfect choice for you. It provides an efficient
-and scalable asynchronous task and scheduling solution that will make your Django project run smoother. Join us now and
-start enjoying the convenience brought by Django Celery Stack & Admin!
+For both traditional web developers handling substantial data processing needs and system administrators tasked with
+intricate scheduling, this full stack solution for Celery and Django compatibility is the optimal selection.
+It delivers a proficient and scalable framework for managing asynchronous tasks and scheduling, enhancing the
+performance of your Django projects. Embrace this solution today and begin reaping the benefits of streamlined task
+management and scheduling within your Django environment.
 
 ### Develop & Contribution
+
 1. Clone the project to your local.
     ```shell
     git clone https://github.com/Haoke98/django-celery-stack.git
