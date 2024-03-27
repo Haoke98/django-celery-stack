@@ -44,7 +44,27 @@ intricate scheduling, this full stack solution for Celery and Django compatibili
 It delivers a proficient and scalable framework for managing asynchronous tasks and scheduling, enhancing the
 performance of your Django projects. Embrace this solution today and begin reaping the benefits of streamlined task
 management and scheduling within your Django environment.
-
+### Usage
+1. Install
+    ```shell
+    pip install django-celery-stack
+    ```
+2. Django project configuration
+    
+    * Register APP
+      ```shell
+        # Application definition
+        INSTALLED_APPS = [
+          ...
+          django_celery_stack
+          ...
+        ]
+      ```
+    
+    * configure the result backend
+        ```python
+        CELERY_RESULT_BACKEND = "django_celery_stack.backends:CustomDatabaseBackend"
+        ```
 ### Develop & Contribution
 
 1. Clone the project to your local.
