@@ -51,8 +51,8 @@ management and scheduling within your Django environment.
     ```
 2. Django project configuration
     
-    * Register APP
-      ```shell
+    * Register APP (settings.py)
+      ```python
         # Application definition
         INSTALLED_APPS = [
           ...
@@ -61,7 +61,7 @@ management and scheduling within your Django environment.
         ]
       ```
     
-    * configure the result backend
+    * configure the result backend (settings.py)
         ```python
         CELERY_RESULT_BACKEND = "django_celery_stack.backends:CustomDatabaseBackend"
         ```
